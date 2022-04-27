@@ -1,10 +1,10 @@
-# THE PUZZLE EXCHANGE
+# ROCK, PAPER, SCISSORS, LIZARD, SPOCK GAME
 
 ## Author
 Cara McAvinchey 
 
 ## Project Overview
-* XX
+*  
 
 You can view the deployed website [here]('')
 
@@ -58,13 +58,10 @@ You can view the deployed website [here]('')
 ## WIREFRAMES
 
 ### Mobile
-(screenshot)
-
-### Tablet
-(screenshot)
+<img width="207" alt="image" src="https://user-images.githubusercontent.com/97494262/165501877-b8d7eaed-4eb8-49de-bcc1-1c77e1adae1b.png">
 
 ### Desktop
-(screenshot)
+<img width="448" alt="image" src="https://user-images.githubusercontent.com/97494262/165501800-64917f4d-68cf-4c12-9b71-da648161d618.png">
 
 ## FEATURES
 
