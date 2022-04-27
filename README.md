@@ -1,108 +1,200 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# THE PUZZLE EXCHANGE
 
-Welcome CaraMcAvinchey,
+## Author
+Cara McAvinchey 
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
+## Project Overview
+* XX
 
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **September 1, 2021**
+You can view the deployed website [here]('')
 
-## Gitpod Reminders
+(screenshot of project)
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
 
-`python3 -m http.server`
+## TABLE OF CONTENTS
 
-A blue button should appear to click: _Make Public_,
+## UX
 
-Another blue button should appear to click: _Open Browser_.
+### Project Goal
+* XX
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+### User Stories
+1. As a first time visitor,
+    * XX
 
-A blue button should appear to click: _Make Public_,
+2. As a returning visitor,
+    * XX
 
-Another blue button should appear to click: _Open Browser_.
+3. As a frequent user, 
+    * XX       
 
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+### User Profiles
 
-To log into the Heroku toolbelt CLI:
+1. XX
 
-1. Log in to your Heroku account and go to *Account Settings* in the menu under your avatar.
-2. Scroll down to the *API Key* and click *Reveal*
-3. Copy the key
-4. In Gitpod, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
+2. XX
+ 
+## DESIGN CHOICES
 
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
+### Colors
+- XX
 
-------
+(screenshot palette)
 
-## Release History
+### Typography
+- XX
 
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
+(screenshot fonts)
 
-**September 1 2021:** Remove `PGHOSTADDR` environment variable.
+### Images
+- XX
 
-**July 19 2021:** Remove `font_fix` script now that the terminal font issue is fixed.
+### Animations
+- XX
 
-**July 2 2021:** Remove extensions that are not available in Open VSX.
+### Responsiveness
+- XX
 
-**June 30 2021:** Combined the P4 and P5 templates into one file, added the uptime script. See the FAQ at the end of this file.
+## WIREFRAMES
 
-**June 10 2021:** Added: `font_fix` script and alias to fix the Terminal font issue
+### Mobile
+(screenshot)
 
-**May 10 2021:** Added `heroku_config` script to allow Heroku API key to be stored as an environment variable.
+### Tablet
+(screenshot)
 
-**April 7 2021:** Upgraded the template for VS Code instead of Theia.
+### Desktop
+(screenshot)
 
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
+## FEATURES
 
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
+### Navigation Bar
+- XX
 
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
+(screenshot)
 
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
+### Hero Image
+- XX
 
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
+(screenshot)
 
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
+### Home Page 
+- XX
 
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
+(screenshot)
 
-------
+### Footer
+- XX
 
-## FAQ about the uptime script
+(screenshot)
 
-**Why have you added this script?**
+### Error 404 
+- XX
 
-It will help us to calculate how many running workspaces there are at any one time, which greatly helps us with cost and capacity planning. It will help us decide on the future direction of our cloud-based IDE strategy.
+(screenshot)
 
-**How will this affect me?**
+### Features for Future Development
+- XX
 
-For everyday usage of Gitpod, it doesn’t have any effect at all. The script only captures the following data:
+## TESTING
 
-- An ID that is randomly generated each time the workspace is started.
-- The current date and time
-- The workspace status of “started” or “running”, which is sent every 5 minutes.
+### Validation Testing
+- HTML
+   - No errors were returned when passing through the official [HTML validator]("")
 
-It is not possible for us or anyone else to trace the random ID back to an individual, and no personal data is being captured. It will not slow down the workspace or affect your work.
+(screenshot)
 
-**So….?**
+- CSS
+   - No errors were found when passing through the [CSS validator]("").
 
-We want to tell you this so that we are being completely transparent about the data we collect and what we do with it.
+(screenshot)
 
-**Can I opt out?**
+### Cross Browser and Cross Device Testing
+- The below combination of devices, browsers, and operating system were used to test the website. A range of viewport sizes were checked to see if users would have the same experience across multiple devices and browsers.
 
-Yes, you can. Since no personally identifiable information is being captured, we'd appreciate it if you let the script run; however if you are unhappy with the idea, simply run the following commands from the terminal window after creating the workspace, and this will remove the uptime script:
+| **TOOL / Device**           | **BROWSER**      | **OS**  | **SCREEN WIDTH** |
+|-----------------------------|------------------|---------|------------------|
+| dev tools: Galaxy Fold      | Chrome           | android | 280 x 653 px     |
+| dev tools: iPhone SE        | safari           | iOs     | 375 x 667 px     |
+| dev tools: Pixel 2          | Chrome           | android | 411 x 731        |
+| real phone: iPhone XR       | safari           | iOs     | 414 x 896 px     |
+| browserstack: Nexus 7       | Firefox          | android | 960 x 600 px     |
+| browserstack: iPhone 13 Pro | safari           | iOs     | 390px × 844px    |
+| real tablet: iPad Pro 11    | Chrome           | iOs     | 834 x 1075 px    |
+| real laptop: Macbook Pro    | Firefox & Chrome | iOs     | 1400 x 766 px    |
+| broswerstack                | Firefox          | iOs     | 1440 x 672 px    |
+| browserstack                | Edge 99          | windows | 1440 x 672 px    |
 
-```
-pkill uptime.sh
-rm .vscode/uptime.sh
-```
+### Testing User Stories from User Experience (UX) Section
 
-**Anything more?**
+**First time visitor:**
+1. XX
+   1. XX
 
-Yes! We'd strongly encourage you to look at the source code of the `uptime.sh` file so that you know what it's doing. As future software developers, it will be great practice to see how these shell scripts work.
+2. XX
+   1. XX
+ 
+3. XX
+   1. XX
+  
+**Returning visitor:**
+1. XX
+      1. XX
+2. XX
+      1. XX
+3. XX
+      1. XX
 
----
+**Frequent user:**
+ 1. XX
+      1. XX
+ 2. XX 
+      1. XX
 
-Happy coding!
+### Manual Testing
+- You can view manual testing of the website [here]("")
+
+### Outstanding Defects
+- XX
+
+### Defects of Note
+1. XX
+2. XX 
+
+## ACCESSIBILITY
+
+### Lighthouse Audit
+- The deployed website was run through [web.dev measure](https://web.dev/measure/) to check performance, accessibility, best practices and SEO scores. 
+<img width="500" alt="image" src="">
+
+### Keyboard Navigation
+- The user will be able to use the tab, arrow and enter keys if needed when navigating the website.
+
+## DEPLOYMENT
+1. Click on the settings link in the menu:
+(screenshot)
+2. In the left hand menu, click on the pages link:
+(screenshot)
+3. In the sources section of the GitHub pages, click on the dropdown menu to select main as the source:
+(screenshot)
+4. After you've selected main, hit the save button:
+(screenshot)
+5. Eventually you'll see a blue area with the deployment URL and a success message:
+(screenshot)
+
+## CREDITS
+- All content was written by the developer.
+- Code Institute Student Template: [gitpod full template](https://github.com/Code-Institute-Org/gitpod-full-template).
+
+### Media
+- The pairing of Roboto Condensed and Lato were chosen using [FontJoy](https://fontjoy.com/#) and [Google Fonts](https://fonts.google.com/share?selection.family=Lato|Roboto+Condensed:wght@700). 
+- The colors for the website was generated using [Image Color Picker](https://imagecolorpicker.com/).
+- All images were sourced using [Pexels](https://www.pexels.com).
+- The icons for the favicon, footer, about page and location headings were taken from [Font Awesome](https://fontawesome.com/).
+
+## ACKNOWLEDGEMENTS
+- Thank you to my mentor for continuous helpful feedback and support throughout the project.
+- The tutors at Code Institute for their patience and support.
+- The Code Institute Slack community for tips and guidance.
+
+[Back to the beginning](#table-of-contents)
