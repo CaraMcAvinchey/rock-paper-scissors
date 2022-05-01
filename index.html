@@ -14,41 +14,63 @@
 </head>
 
 <body>
-    <h1>Welcome to rock, paper, scissors lizard, spock!</h1>
-    <h2 id="demo">Let's play!</h2>
-    <!-- game container -->
-    <div class="container">
-        <!-- first section -->
-        <div class="section">
-            <div class="section-content">
-                <h3>You:</h3><span id="playerScore">0</span>
+    <header>
+        <h1>Welcome to rock, paper, scissors, lizard, spock!</h1>
+    </header>
+    <section>
+        <h2 id="demo">Are you ready?</h2>
+        <!-- game container -->
+        <div class="container">
+            <!-- first section -->
+            <div class="section">
+                <div class="section-content">
+                    <h3>You:</h3><span id="playerScore">0</span>
+                </div>
+                <div class="show">
+                    <i class="fas fa-hand-rock"></i>
+                </div>
             </div>
-            <div class="show">
-                <i class="fas fa-hand-rock"></i>
+            <!-- second section -->
+            <div class="section">
+                <div class="section-content">
+                    <h3>Sheldon Cooper:</h3><span id="computerScore">0</span>
+                </div>
+                <div class="show computer">
+                    <i class="fas fa-hand-scissors"></i>
+                </div>
             </div>
         </div>
-        <!-- second section -->
-        <div class="section">
-            <div class="section-content">
-                <h3>Sheldon Cooper :</h3><span id="computerScore">0</span>
-            </div>
-            <div class="show computer">
-                <i class="fas fa-hand-scissors"></i>
-            </div>
+        <h2 id="demo2">Make your move!</h2>
+        <!-- game controls -->
+        <div class="selection">
+            <button class="fas fa-hand-rock" id="rock"></button>
+            <button class="fas fa-hand-paper" id="paper"></button>
+            <button class="fas fa-hand-scissors" id="scissors"></button>
+            <button class="fas fa-hand-lizard" id="lizard"></button>
+            <button class="fas fa-hand-spock" id="spock"></button>
         </div>
-    </div>
-    <h2 id="demo2">Make your move!</h2>
-    <!-- game buttons   -->
-    <div class="selection">
-        <button class="fas fa-hand-rock" id="rock"></button>
-        <button class="fas fa-hand-paper" id="paper"></button>
-        <button class="fas fa-hand-scissors" id="scissors"></button>
-        <button class="fas fa-hand-lizard" id="lizard"></button>
-        <button class="fas fa-hand-spock" id="spock"></button>
-    </div>
-    
+    </section>
+    <!-- game rules -->
+    <section>
+        <h2>Game Rules:</h2>
+        <ul>
+            <li>Scissors cuts Paper</li>
+            <li>Paper covers Rock</li>
+            <li>Rock crushes Lizard</li>
+            <li>Lizard poisons Spock</li>
+            <li>Spock smashes Scissors</li>
+            <li>Scissors decapitates Lizard</li>
+            <li>Lizard eats Paper</li>
+            <li>Paper disproves Spock</li>
+            <li>Spock vaporizes Rock</li>
+            <p>(and as it always has)</p>
+            <li>Rock crushes Scissors</li> 
+        </ul>
+
+    </section>
+
     <script src="assets/js/script.js"></script>
-     <!-- Font Awesome -->
+    <!-- Font Awesome -->
     <script src="https://kit.fontawesome.com/7cf492ae91.js" crossorigin="anonymous"></script>
 
 </body>

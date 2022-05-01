@@ -17,19 +17,50 @@ body {
     align-items: center;
 }
 
-h1 {
+header {
+    background: rgba(173, 76, 189, .7);
+    height: fit-content;
+    width: 100%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+header h1 {
     font-family: 'ZCOOL QingKe HuangYou', cursive;
-    font-weight: 800;
+    font-size: 250%;
     margin: 15px 0;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+    color: white;
+}
+
+#demo,
+#demo2 {
+    font-family: 'ZCOOL QingKe HuangYou', cursive;
+    font-size: 200%;
+    padding: 15px;
+}
+
+h3 {
+    font-family: 'ZCOOL QingKe HuangYou', cursive;
+    font-size: 150%;
+}
+
+span {
+    font-family: 'ZCOOL QingKe HuangYou', cursive;
+    font-size: 150%;
+    color: red;
 }
 
 .container {
     display: flex;
 }
+
 .container .section {
     width: 350px;
     margin: 20px 50px;
 }
+
 .section .section-info {
     background: rgb(10, 10, 10);
     display: flex;
@@ -37,29 +68,35 @@ h1 {
     justify-content: center;
     height: 50px;
 }
-.info span , .section-info h3 {
+
+.info span,
+.section-info h3 {
     font-size: 25px;
     font-weight: bold;
     margin: 0px 10px;
     font-family: sans-serif;
     color: white;
 }
+
 .show {
     display: flex;
     align-items: center;
     justify-content: center;
-    background: rgba(12,10,39, .7);
+    background: rgba(12, 10, 39, .7);
     height: 220px;
 }
+
 .show i {
     font-size: 100px;
     color: orange;
 }
+
 h2 {
     font-family: sans-serif;
     font-weight: bold;
     padding: 5px;
 }
+
 .selection {
     display: flex;
     align-items: center;
@@ -67,6 +104,7 @@ h2 {
     width: 350px;
     height: 100px;
 }
+
 .selection button {
     margin: 0 20px;
     padding: 25px;
@@ -74,7 +112,7 @@ h2 {
     border: none;
     outline: none;
     cursor: pointer;
-    background: rgba(12,10,39, .7);
+    background: rgba(12, 10, 39, .7);
     font-size: 33px;
     color: orange;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
@@ -82,9 +120,8 @@ h2 {
 
 button:hover {
     transform: scale(1.2);
-    
+
 
 
 
 }
-
