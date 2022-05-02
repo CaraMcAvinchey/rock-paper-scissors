@@ -17,14 +17,13 @@
     <header>
         <h1>Welcome to rock, paper, scissors, lizard, spock!</h1>
     </header>
-    <section>
         <h2 id="demo">Are you ready?</h2>
         <!-- game container -->
         <div class="container">
             <!-- first section -->
             <div class="section">
                 <div class="section-content">
-                    <h3>You:</h3><span id="playerScore">0</span>
+                    <h3>You : <span class="score" id="playerScore">0</span></h3>
                 </div>
                 <div class="show">
                     <i class="fas fa-hand-rock"></i>
@@ -33,7 +32,7 @@
             <!-- second section -->
             <div class="section">
                 <div class="section-content">
-                    <h3>Sheldon Cooper:</h3><span id="computerScore">0</span>
+                    <h3>Sheldon : <span class="score" id="computerScore">0</span></h3>
                 </div>
                 <div class="show computer">
                     <i class="fas fa-hand-scissors"></i>
@@ -49,10 +48,11 @@
             <button class="fas fa-hand-lizard" id="lizard"></button>
             <button class="fas fa-hand-spock" id="spock"></button>
         </div>
-    </section>
+
     <!-- game rules -->
-    <section>
+    <section class="game-rules">
         <h2>Game Rules:</h2>
+        <img src="assets/images/game-rules.png" alt="Illustration of the game rules.">
         <ul>
             <li>Scissors cuts Paper</li>
             <li>Paper covers Rock</li>
@@ -63,14 +63,16 @@
             <li>Lizard eats Paper</li>
             <li>Paper disproves Spock</li>
             <li>Spock vaporizes Rock</li>
+            <br>
             <p>(and as it always has)</p>
+            <br>
             <li>Rock crushes Scissors</li> 
         </ul>
 
     </section>
 
     <script src="assets/js/script.js"></script>
-    <!-- Font Awesome -->
+    <!-- font awesome -->
     <script src="https://kit.fontawesome.com/7cf492ae91.js" crossorigin="anonymous"></script>
 
 </body>
