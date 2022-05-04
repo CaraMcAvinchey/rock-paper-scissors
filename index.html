@@ -17,59 +17,68 @@
     <header>
         <h1>Welcome to rock, paper, scissors, lizard, spock!</h1>
     </header>
-        <h2 id="demo">Are you ready?</h2>
-        <!-- game container -->
-        <div class="container">
-            <!-- first section -->
-            <div class="section">
-                <div class="section-content">
-                    <h3>You : <span class="score" id="playerScore">0</span></h3>
-                </div>
-                <div class="show">
-                    <i class="fas fa-hand-rock"></i>
-                </div>
+    <h2 id="demo">Are you ready?</h2>
+    <!-- game container -->
+    <div class="container">
+        <!-- first section -->
+        <div class="section">
+            <div class="section-content">
+                <h3>You : <span class="score" id="playerScore">0</span></h3>
             </div>
-            <!-- second section -->
-            <div class="section">
-                <div class="section-content">
-                    <h3>Sheldon : <span class="score" id="computerScore">0</span></h3>
-                </div>
-                <div class="show computer">
-                    <i class="fas fa-hand-scissors"></i>
-                </div>
+            <div class="show">
+                <i class="fas fa-hand-rock"></i>
             </div>
         </div>
-        <h2 id="demo2">Make your move!</h2>
-        <!-- game controls -->
-        <div class="selection">
-            <button class="fas fa-hand-rock" id="rock"></button>
-            <button class="fas fa-hand-paper" id="paper"></button>
-            <button class="fas fa-hand-scissors" id="scissors"></button>
-            <button class="fas fa-hand-lizard" id="lizard"></button>
-            <button class="fas fa-hand-spock" id="spock"></button>
+        <!-- second section -->
+        <div class="section">
+            <div class="section-content">
+                <h3>Sheldon : <span class="score" id="computerScore">0</span></h3>
+            </div>
+            <div class="show computer">
+                <i class="fas fa-hand-scissors"></i>
+            </div>
         </div>
+    </div>
+    <h2 id="demo2">Make your move!</h2>
+    <!-- game controls -->
+    <div class="selection">
+        <button class="fas fa-hand-rock" id="rock"></button>
+        <button class="fas fa-hand-paper" id="paper"></button>
+        <button class="fas fa-hand-scissors" id="scissors"></button>
+        <button class="fas fa-hand-lizard" id="lizard"></button>
+        <button class="fas fa-hand-spock" id="spock"></button>
+    </div>
 
     <!-- game rules -->
     <section class="game-rules">
         <h2>Game Rules:</h2>
         <img src="assets/images/game-rules.png" alt="Illustration of the game rules.">
-        <ul>
-            <li>Scissors cuts Paper</li>
-            <li>Paper covers Rock</li>
-            <li>Rock crushes Lizard</li>
-            <li>Lizard poisons Spock</li>
-            <li>Spock smashes Scissors</li>
-            <li>Scissors decapitates Lizard</li>
-            <li>Lizard eats Paper</li>
-            <li>Paper disproves Spock</li>
-            <li>Spock vaporizes Rock</li>
-            <br>
-            <p>(and as it always has)</p>
-            <br>
-            <li>Rock crushes Scissors</li> 
-        </ul>
-
+        <div class="game-rules-text">
+        <p>Scissors cuts paper, paper covers rock, rock crushes lizard and lizard poisons Spock.</p>
+        <br>
+        <p>Spock smashes scissors, scissors decapitates lizard, lizard eats paper and paper disproves Spock. </p>
+        <br>
+        <p>Spock vaporizes rock and (as it always has) rock crushes scissors</p>
+        </div>    
     </section>
+
+   <!--footer-->
+   <footer>
+    <ul class="social-networks">
+        <li>
+            <a href="https://www.facebook.com/" target="_blank" rel="noopener"
+                aria-label="Visit our Facebook page (opens in new tab)"><i class="fab fa-facebook-f"></i></a>
+        </li>
+        <li>
+            <a href="https://www.instagram.com/" target="_blank" rel="noopener"
+                aria-label="Visit our Instagram page (opens in new tab)"><i class="fab fa-instagram"></i></a>
+        </li>
+        <li>
+            <a href="https://www.twitter.com/" target="_blank" rel="noopener"
+                aria-label="Visit our Twitter page (opens in new tab)"><i class="fab fa-twitter"></i></a>
+        </li>
+    </ul>
+</footer>
 
     <script src="assets/js/script.js"></script>
     <!-- font awesome -->
