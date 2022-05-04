@@ -37,6 +37,7 @@ h3 {
 #demo2 {
     text-align: center;
     padding: 10px;
+    margin-top: 10px;
 }
 
 /* game area */
@@ -231,10 +232,60 @@ footer a:hover {
     footer a {
         font-size: 160%;
     }
+
+    .selection button {
+        font-size: 45px;
+    }
 }
 
 /* large devices (laptops, less than 992px) */
 
 @media (min-width: 992px) {
+    header h1 {
+        font-size: 320%;
+    }
+
+    h2,
+    h3 {
+        font-size: 270%;
+    }
+
+    .game-rules-text {
+        font-size: 180%;
+    }
+
+    footer a {
+        font-size: 180%;
+    }
+
+    .selection button {
+        font-size: 55px;
+    }
+
+}
+
+/* extra large devices (desktops, less than 1200px) */
+
+@media (min-width: 1200px) {
+    header h1 {
+        font-size: 350%;
+    }
+
+    h2,
+    h3 {
+        font-size: 300%;
+    }
+
+    .game-rules-text {
+        font-size: 200%;
+    }
+
+    footer a {
+        font-size: 200%;
+    }
+
+    .selection button {
+        font-size: 60px;
+    }
 
 }
