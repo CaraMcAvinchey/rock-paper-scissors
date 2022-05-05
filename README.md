@@ -65,27 +65,22 @@ You can view the deployed website [here]('')
 
 ## FEATURES
 
-### Navigation Bar
+### Game Score Area
 - XX
 
 (screenshot)
 
-### Hero Image
+### Game Controls 
 - XX
 
 (screenshot)
 
-### Home Page 
+### Game Rules
 - XX
 
 (screenshot)
 
 ### Footer
-- XX
-
-(screenshot)
-
-### Error 404 
 - XX
 
 (screenshot)
@@ -180,7 +175,7 @@ You can view the deployed website [here]('')
 (screenshot)
 
 ## CREDITS
-- All content was written by the developer.
+- This game was built with the guidance and source code from [Mehdi Aoussiad] (https://javascript.plainenglish.io/building-a-rock-paper-scissors-game-with-javascript-bce23d39509d)
 - Code Institute Student Template: [gitpod full template](https://github.com/Code-Institute-Org/gitpod-full-template).
 
 ### Media
