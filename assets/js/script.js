@@ -29,61 +29,48 @@ const game = () => {
                 pScore.innerHTML = pScore.innerHTML;
                 cScore.innerHTML = cScore.innerHTML;
                 text.innerHTML = "It's a Tie! ";
-                text.style.color = 'orange';
-                text2.innerHTML = text.innerHTML;
-                text2.style.color = 'orange';
             }
             // Player rock beats computer scissors.
             else if (showIcon.className === randomClasses[0] && computerShowIcon.className === randomClasses[2]) {
                 pScore.innerHTML = playerScore;
                 playerScore++;
                 text.innerHTML = "You won! ";
-                text.style.color = 'rgb(1, 146, 1)';
-                text2.innerHTML = text.innerHTML;
-                text2.style.color = 'rgb(1, 146, 1)';
              // Player rock loses to computer paper.   
             } else if (showIcon.className === randomClasses[0] && computerShowIcon.className === randomClasses[1]) {
                 cScore.innerHTML = computerScore;
                 computerScore++;
                 text.innerHTML = "You lost!";
-                text.style.color = 'red';
-                text2.innerHTML = text.innerHTML;
-                text2.style.color = 'red';
             // Player paper loses to computer scissors. 
             } else if (showIcon.className === randomClasses[1] && computerShowIcon.className === randomClasses[2]) {
                 cScore.innerHTML = computerScore;
                 computerScore++;
                 text.innerHTML = "You lost ! ";
-                text.style.color = 'red';
-                text2.innerHTML = text.innerHTML;
-                text2.style.color = 'red';
             // Player paper beats computer rock.   
             } else if (showIcon.className === randomClasses[1] && computerShowIcon.className === randomClasses[0]) {
                 pScore.innerHTML = playerScore;
                 playerScore++;
                 text.innerHTML = "It's a win! ";
-                text.style.color = 'rgb(1, 146, 1)';
-                text2.innerHTML = text.innerHTML;
-                text2.style.color = 'rgb(1, 146, 1)';
             // Player scissors loses to computer rock.     
             } else if (showIcon.className === randomClasses[2] && computerShowIcon.className === randomClasses[0]) {
                 cScore.innerHTML = computerScore;
                 computerScore++;
                 text.innerHTML = "You lost! ";
-                text.style.color = 'red';
-                text2.innerHTML = text.innerHTML;
-                text2.style.color = 'red';
              // Player scissors beats computer paper.  
             } else if (showIcon.className === randomClasses[2] && computerShowIcon.className === randomClasses[1]) {
                 pScore.innerHTML = playerScore;
                 playerScore++;
                 text.innerHTML = "It's a win! ";
-                text.style.color = 'rgb(1, 146, 1)';
-                text2.innerHTML = text.innerHTML;
-                text2.style.color = 'rgb(1, 146, 1)';
+            // Player rock beats computer lizard.    
+            } else if (showIcon.className === randomClasses[0] && computerShowIcon.className === randomClasses[3]) {
+                pScore.innerHTML = playerScore;
+                playerScore++;
+                text.innerHTML = "It's a win! ";
+            // Player lizard loses to computer rock.    
+            } else if (showIcon.className === randomClasses[3] && computerShowIcon.className === randomClasses[0]) {
+                pScore.innerHTML = playerScore;
+                playerScore++;
+                text.innerHTML = "You lost! ";
             }
-            // Player rock beats computer lizard.
-            // Player lizard loses to computer rock.
 
             // Player lizard beats computer spock.
             // Player spock loses to computer lizard.

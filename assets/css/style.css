@@ -87,6 +87,11 @@ h3 {
     color: orange;
 }
 
+.result{
+    margin-top: 20px;
+    font-size: 1.2rem;
+}
+
 /* game controls */
 
 .selection {
