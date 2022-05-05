@@ -10,6 +10,7 @@
     <meta name="keywords" content="games, rock paper scissors, Big Bang Theory, javascript">
 
     <link rel="stylesheet" href="assets/css/style.css">
+    <!--title -->
     <title>Document</title>
 </head>
 
@@ -18,7 +19,8 @@
         <h1>Welcome to rock, paper, scissors, lizard, spock!</h1>
     </header>
     <h2 id="demo">Are you ready?</h2>
-    <!-- game container -->
+
+    <!--display score of player and computer -->
     <div class="container">
         <!-- first section -->
         <div class="section">
@@ -40,16 +42,26 @@
         </div>
     </div>
     <h2 id="demo2">Make your move!</h2>
-    <!-- game controls -->
+
+    <!--number of moves left before game ends -->
+    <div class="movesleft">Moves Left: 10 </div>
+
+    <!--options available to player to play game -->
     <div class="selection">
-        <button class="fas fa-hand-rock" id="rock"></button>
-        <button class="fas fa-hand-paper" id="paper"></button>
-        <button class="fas fa-hand-scissors" id="scissors"></button>
-        <button class="fas fa-hand-lizard" id="lizard"></button>
-        <button class="fas fa-hand-spock" id="spock"></button>
+        <button class="fas fa-hand-rock rock" id="rock"></button>
+        <button class="fas fa-hand-paper paper" id="paper"></button>
+        <button class="fas fa-hand-scissors scissors" id="scissors"></button>
+        <button class="fas fa-hand-lizard lizard" id="lizard"></button>
+        <button class="fas fa-hand-spock spock" id="spock"></button>
     </div>
 
-    <!-- game rules -->
+    <!--final result of game -->
+    <div class="result"></div>
+
+    <!--reload the game -->
+    <button class="reload"></button>
+
+    <!--game rules -->
     <section class="game-rules">
         <h2>Game Rules:</h2>
         <img src="assets/images/game-rules.png" alt="Illustration of the game rules.">

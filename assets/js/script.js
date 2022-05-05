@@ -1,6 +1,6 @@
 // This game was built using code from Mehdi Aoussiad from: https: //javascript.plainenglish.io/building-a-rock-paper-scissors-game-with-javascript-bce23d39509d
 
-// Setting the scores and selecting our HTML elements.
+// Setting the scores and selecting the HTML elements.
 let computerScore = 1;
 let playerScore = 1;
 const pScore = document.getElementById('playerScore');
@@ -9,7 +9,104 @@ const buttons = document.querySelectorAll('.selection button');
 const showIcon = document.querySelector('.show i');
 const computerShowIcon = document.querySelector('.computer i');
 
-// The randomClass array below this contains the rock,paper, and scissor Icon from font-awesome.
+// The randomClass array below contains the rock, paper, scissors, lizard and spock icons from font-awesome.
 const randomClasses = ["fas fa-hand-rock", "fas fa-hand-paper", "fas fa-hand-scissors", "fas fa-hand-lizard", "fas fa-hand-spock"];
 const text = document.getElementById('demo');
 const text2 = document.getElementById('demo2');
+
+// The game functionality: setting forEach function for the buttons.
+const game = () => {
+    buttons.forEach(btn => {
+        btn.addEventListener('click', (e) => {
+            // Random rock paper scissor for the computer and the player.
+            let clickedBtn = e.target.className;
+            showIcon.className = clickedBtn;
+            let randomNum = Math.floor(Math.random() * randomClasses.length);
+            computerShowIcon.className = randomClasses[randomNum];
+            // Game Score.
+            // If it's a tie then:
+            if (showIcon.className === computerShowIcon.className) {
+                pScore.innerHTML = pScore.innerHTML;
+                cScore.innerHTML = cScore.innerHTML;
+                text.innerHTML = "It's a Tie! ";
+                text.style.color = 'orange';
+                text2.innerHTML = text.innerHTML;
+                text2.style.color = 'orange';
+            }
+            // Player rock beats computer scissors.
+            else if (showIcon.className === randomClasses[0] && computerShowIcon.className === randomClasses[2]) {
+                pScore.innerHTML = playerScore;
+                playerScore++;
+                text.innerHTML = "You won! ";
+                text.style.color = 'rgb(1, 146, 1)';
+                text2.innerHTML = text.innerHTML;
+                text2.style.color = 'rgb(1, 146, 1)';
+             // Player rock loses to computer paper.   
+            } else if (showIcon.className === randomClasses[0] && computerShowIcon.className === randomClasses[1]) {
+                cScore.innerHTML = computerScore;
+                computerScore++;
+                text.innerHTML = "You lost!";
+                text.style.color = 'red';
+                text2.innerHTML = text.innerHTML;
+                text2.style.color = 'red';
+            // Player paper loses to computer scissors. 
+            } else if (showIcon.className === randomClasses[1] && computerShowIcon.className === randomClasses[2]) {
+                cScore.innerHTML = computerScore;
+                computerScore++;
+                text.innerHTML = "You lost ! ";
+                text.style.color = 'red';
+                text2.innerHTML = text.innerHTML;
+                text2.style.color = 'red';
+            // Player paper beats computer rock.   
+            } else if (showIcon.className === randomClasses[1] && computerShowIcon.className === randomClasses[0]) {
+                pScore.innerHTML = playerScore;
+                playerScore++;
+                text.innerHTML = "It's a win! ";
+                text.style.color = 'rgb(1, 146, 1)';
+                text2.innerHTML = text.innerHTML;
+                text2.style.color = 'rgb(1, 146, 1)';
+            // Player scissors loses to computer rock.     
+            } else if (showIcon.className === randomClasses[2] && computerShowIcon.className === randomClasses[0]) {
+                cScore.innerHTML = computerScore;
+                computerScore++;
+                text.innerHTML = "You lost! ";
+                text.style.color = 'red';
+                text2.innerHTML = text.innerHTML;
+                text2.style.color = 'red';
+             // Player scissors beats computer paper.  
+            } else if (showIcon.className === randomClasses[2] && computerShowIcon.className === randomClasses[1]) {
+                pScore.innerHTML = playerScore;
+                playerScore++;
+                text.innerHTML = "It's a win! ";
+                text.style.color = 'rgb(1, 146, 1)';
+                text2.innerHTML = text.innerHTML;
+                text2.style.color = 'rgb(1, 146, 1)';
+            }
+            // Player rock beats computer lizard.
+            // Player lizard loses to computer rock.
+
+            // Player lizard beats computer spock.
+            // Player spock loses to computer lizard.
+
+            // Player spock beats computer scissors.
+            // Player scissors loses to computer spock.
+
+            // Player scissors beats computer lizard.
+            // Player lizard loses to computer scissors.
+
+            // Player lizard beats computer paper.
+            // Player paper loses to computer lizard.
+
+            // Player paper beats computer spock.
+            // Player spock loses to computer paper.
+
+            // Player spock beats computer rock.
+            // Player rock loses to computer spock.
+
+        });
+    });
+}
+// To call the function.
+game();
+
+// This function contains all the game logic.

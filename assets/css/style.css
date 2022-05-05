@@ -14,7 +14,7 @@ body {
     color: white;
 }
 
-/* header */
+/* header and site headings */
 
 header {
     background: rgba(173, 76, 189, .7);
@@ -116,6 +116,19 @@ button:hover {
 
 .game-rules h2 {
     text-align: center;
+}
+
+/* reload game button */
+
+.reload {
+    display: none;
+    margin-top: 2rem;
+    padding: 1rem;
+    background: orange;
+    outline: none;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
 }
 
 /* game rules */
@@ -261,7 +274,6 @@ footer a:hover {
     .selection button {
         font-size: 55px;
     }
-
 }
 
 /* extra large devices (desktops, less than 1200px) */
