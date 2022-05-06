@@ -70,15 +70,20 @@ const game = () => {
                 cScore.innerHTML = computerScore;
                 computerScore++;
                 text.innerHTML = "You lost! ";
-            // Player lizard beats computer spock.    
+            // Player lizard beats computer spock (done)    
             } else if (showIcon.className === randomClasses[3] && computerShowIcon.className === randomClasses[4]) {
                 pScore.innerHTML = playerScore;
                 playerScore++;
                 text.innerHTML = "It's a win! ";
-            }    
+            // Player spock loses to computer lizard.    
+            }  else if (showIcon.className === randomClasses[4] && computerShowIcon.className === randomClasses[3]) {
+                cScore.innerHTML = computerScore;
+                computerScore++;
+                text.innerHTML = "You lost! ";
+            }      
 
             
-            // Player spock loses to computer lizard.
+
 
             // Player spock beats computer scissors.
             // Player scissors loses to computer spock.
