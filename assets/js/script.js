@@ -100,18 +100,15 @@ const game = () => {
                 cScore.innerHTML = computerScore;
                 computerScore++;
                 text.innerHTML = "You lost! ";
-            }            
-
-            
-
-
-            
-           
-
-            
-            
-
             // Player lizard beats computer paper.
+            }  else if (showIcon.className === randomClasses[3] && computerShowIcon.className === randomClasses[1]) {
+                pScore.innerHTML = playerScore;
+                playerScore++;
+                text.innerHTML = "It's a win! ";
+            }              
+
+            
+
             // Player paper loses to computer lizard.
 
             // Player paper beats computer spock.
