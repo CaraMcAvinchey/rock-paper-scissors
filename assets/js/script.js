@@ -120,13 +120,18 @@ const game = () => {
                 cScore.innerHTML = computerScore;
                 computerScore++;
                 text.innerHTML = "You lost! ";
-            }                
+            // Player spock beats computer rock.    
+            }  else if (showIcon.className === randomClasses[4] && computerShowIcon.className === randomClasses[0]) {
+                pScore.innerHTML = playerScore;
+                playerScore++;
+                text.innerHTML = "It's a win! ";
+            }                 
 
             
             
             
 
-            // Player spock beats computer rock.
+            
             // Player rock loses to computer spock.
 
         });
