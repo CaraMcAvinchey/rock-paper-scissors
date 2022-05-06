@@ -65,14 +65,19 @@ const game = () => {
                 pScore.innerHTML = playerScore;
                 playerScore++;
                 text.innerHTML = "It's a win! ";
-            // Player lizard loses to computer rock.    
+            // Player lizard loses to computer rock (done)    
             } else if (showIcon.className === randomClasses[3] && computerShowIcon.className === randomClasses[0]) {
                 cScore.innerHTML = computerScore;
                 computerScore++;
                 text.innerHTML = "You lost! ";
-            }
+            // Player lizard beats computer spock.    
+            } else if (showIcon.className === randomClasses[3] && computerShowIcon.className === randomClasses[4]) {
+                pScore.innerHTML = playerScore;
+                playerScore++;
+                text.innerHTML = "It's a win! ";
+            }    
 
-            // Player lizard beats computer spock.
+            
             // Player spock loses to computer lizard.
 
             // Player spock beats computer scissors.
