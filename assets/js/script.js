@@ -1,4 +1,4 @@
-// This game was built using code from Mehdi Aoussiad from: https: //javascript.plainenglish.io/building-a-rock-paper-scissors-game-with-javascript-bce23d39509d
+// This game was built with the help of source code from Mehdi Aoussiad: https: //javascript.plainenglish.io/building-a-rock-paper-scissors-game-with-javascript-bce23d39509d
 
 // Setting the scores and selecting the HTML elements.
 let computerScore = 1;
@@ -60,22 +60,22 @@ const game = () => {
                 pScore.innerHTML = playerScore;
                 playerScore++;
                 text.innerHTML = "It's a win! ";
-            // Player rock beats computer lizard (done)    
+            // Player rock beats computer lizard   
             } else if (showIcon.className === randomClasses[0] && computerShowIcon.className === randomClasses[3]) {
                 pScore.innerHTML = playerScore;
                 playerScore++;
                 text.innerHTML = "It's a win! ";
-            // Player lizard loses to computer rock (done)    
+            // Player lizard loses to computer rock   
             } else if (showIcon.className === randomClasses[3] && computerShowIcon.className === randomClasses[0]) {
                 cScore.innerHTML = computerScore;
                 computerScore++;
                 text.innerHTML = "You lost! ";
-            // Player lizard beats computer spock (done)    
+            // Player lizard beats computer spock    
             } else if (showIcon.className === randomClasses[3] && computerShowIcon.className === randomClasses[4]) {
                 pScore.innerHTML = playerScore;
                 playerScore++;
                 text.innerHTML = "It's a win! ";
-            // Player spock loses to computer lizard (done)    
+            // Player spock loses to computer lizard    
             }  else if (showIcon.className === randomClasses[4] && computerShowIcon.className === randomClasses[3]) {
                 cScore.innerHTML = computerScore;
                 computerScore++;
@@ -137,4 +137,12 @@ const game = () => {
 // To call the function.
 game();
 
-// This function contains all the game logic.
+// Toggle hide and show the game rules
+function myFunction() {
+    var x = document.getElementById("toggle-hide-show");
+    if (x.style.display === "none") {
+      x.style.display = "block";
+    } else {
+      x.style.display = "none";
+    }
+  }
