@@ -85,13 +85,18 @@ const game = () => {
                 pScore.innerHTML = playerScore;
                 playerScore++;
                 text.innerHTML = "It's a win! ";
+                 // Player scissors loses to computer spock.
+            }   else if (showIcon.className === randomClasses[2] && computerShowIcon.className === randomClasses[4]) {
+                cScore.innerHTML = computerScore;
+                computerScore++;
+                text.innerHTML = "You lost! "; 
             }        
 
             
 
 
             
-            // Player scissors loses to computer spock.
+           
 
             // Player scissors beats computer lizard.
             // Player lizard loses to computer scissors.
