@@ -125,15 +125,12 @@ const game = () => {
                 pScore.innerHTML = playerScore;
                 playerScore++;
                 text.innerHTML = "It's a win! ";
-            }                 
-
-            
-            
-            
-
-            
-            // Player rock loses to computer spock.
-
+            // Player rock loses to computer spock.    
+            }  else if (showIcon.className === randomClasses[0] && computerShowIcon.className === randomClasses[4]) {
+                cScore.innerHTML = computerScore;
+                computerScore++;
+                text.innerHTML = "You lost! ";
+            }                   
         });
     });
 }
