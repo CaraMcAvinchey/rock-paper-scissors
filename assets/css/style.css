@@ -121,6 +121,12 @@ button:hover {
 
 /* game rules */
 
+.toggle-area {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
 .toggle-button {
     font-family: 'ZCOOL QingKe HuangYou';
     background: rgba(173, 76, 189, .7);
@@ -129,16 +135,17 @@ button:hover {
     padding: 10px;
     border-radius: 8px;
     box-shadow: 0 0 1px 0 rgb(0 0 0 / 25%);
+    margin-bottom: 10px
 }
 
 img {
     max-width: 100%;
-    height: auto;
     display: block;
+    height: 200px;
+    width: 200px;
     margin-left: auto;
     margin-right: auto;
     margin-top: 10px;
-    width: 50%;
     border-radius: 4px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     opacity: 0.8;
@@ -223,6 +230,11 @@ footer a:hover {
     .container {
         justify-content: center;
     }
+
+    img {
+        height: 220px;
+        width: 220px;
+    }
 }
 
 /* medium devices (tablets, less than 768px) */
@@ -238,6 +250,11 @@ footer a:hover {
 
     .game-rules-text {
         font-size: 160%;
+    }
+
+    img {
+        height: 270px;
+        width: 270px;
     }
 
     footer a {
@@ -265,6 +282,11 @@ footer a:hover {
         font-size: 180%;
     }
 
+    img {
+        height: 300px;
+        width: 300px;
+    }
+
     footer a {
         font-size: 180%;
     }
@@ -288,6 +310,11 @@ footer a:hover {
 
     .game-rules-text {
         font-size: 200%;
+    }
+
+    img {
+        height: 350px;
+        width: 350px;
     }
 
     footer a {

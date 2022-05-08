@@ -17,52 +17,57 @@
     <header>
         <h1>Welcome to rock, paper, scissors, lizard, spock!</h1>
     </header>
-    <h2 id="demo">Are you ready?</h2>
-    <!-- game container -->
-    <div class="container">
-        <!-- first section -->
-        <div class="section">
-            <div class="section-content">
-                <h3>You : <span class="score" id="playerScore">0</span></h3>
+    <!-- welcome area -->
+    <div class="welcome-area">
+        <h2 id="demo">Are you ready?</h2>
+    </div>
+    <!-- game area -->
+    <div>
+        <div class="container">
+            <!-- first section -->
+            <div class="section">
+                <div class="section-content">
+                    <h3>You : <span class="score" id="playerScore">0</span></h3>
+                </div>
+                <div class="show">
+                    <i class="fas fa-hand-rock"></i>
+                </div>
             </div>
-            <div class="show">
-                <i class="fas fa-hand-rock"></i>
+            <!-- second section -->
+            <div class="section">
+                <div class="section-content">
+                    <h3>Sheldon : <span class="score" id="computerScore">0</span></h3>
+                </div>
+                <div class="show computer">
+                    <i class="fas fa-hand-scissors"></i>
+                </div>
             </div>
         </div>
-        <!-- second section -->
-        <div class="section">
-            <div class="section-content">
-                <h3>Sheldon : <span class="score" id="computerScore">0</span></h3>
-            </div>
-            <div class="show computer">
-                <i class="fas fa-hand-scissors"></i>
-            </div>
+        <h2 id="demo2">Make your move!</h2>
+
+        <div class="selection">
+            <button class="fas fa-hand-rock" id="rock"></button>
+            <button class="fas fa-hand-paper" id="paper"></button>
+            <button class="fas fa-hand-scissors" id="scissors"></button>
+            <button class="fas fa-hand-lizard" id="lizard"></button>
+            <button class="fas fa-hand-spock" id="spock"></button>
         </div>
     </div>
-    <h2 id="demo2">Make your move!</h2>
-
-    <!-- game controls -->
-    <div class="selection">
-        <button class="fas fa-hand-rock" id="rock"></button>
-        <button class="fas fa-hand-paper" id="paper"></button>
-        <button class="fas fa-hand-scissors" id="scissors"></button>
-        <button class="fas fa-hand-lizard" id="lizard"></button>
-        <button class="fas fa-hand-spock" id="spock"></button>
-    </div>
-
-    <!--game rules -->
+    <!--game rules area -->
     <section class="game-rules">
-        <button class="toggle-button" onclick="myFunction()">Game Rules:</button>
-        <div id="toggle-hide-show">
-            <img src="assets/images/game-rules.png" alt="Illustration of the game rules.">
-            <div class="game-rules-text">
-                <ol>
-                    <li>Scissors cuts paper, paper covers rock, rock crushes lizard and lizard poisons Spock.</li>
-                    <li>Spock smashes scissors, scissors decapitates lizard, lizard eats paper and paper disproves
-                        Spock.
-                    </li>
-                    <li>Spock vaporizes rock and (as it always has) rock crushes scissors!</li>
-                </ol>
+        <div class="toggle-area">
+            <button class="toggle-button" onclick="myFunction()">Game Rules:</button>
+            <div id="toggle-hide-show">
+                <img src="assets/images/game-rules.png" alt="Illustration of the game rules.">
+                <div class="game-rules-text">
+                    <ol>
+                        <li>Scissors cuts paper, paper covers rock, rock crushes lizard and lizard poisons Spock.</li>
+                        <li>Spock smashes scissors, scissors decapitates lizard, lizard eats paper and paper disproves
+                            Spock.
+                        </li>
+                        <li>Spock vaporizes rock and (as it always has) rock crushes scissors!</li>
+                    </ol>
+                </div>
             </div>
         </div>
     </section>
