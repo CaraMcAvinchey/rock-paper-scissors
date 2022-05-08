@@ -137,12 +137,20 @@ const game = () => {
 // To call the function.
 game();
 
-// Toggle hide and show the game rules
-function myFunction() {
-    var x = document.getElementById("toggle-hide-show");
-    if (x.style.display === "none") {
-      x.style.display = "block";
+/**
+ * Function: hideShowSection
+ * @param element_id - strirng of the id of the elemennt to hide/show
+ * 
+ * This function takes an id and looks to see if the class list has "hide" in it
+ * and either removes it or adds that class to gtoggle on and off an element
+ *  */ 
+
+ function hideShowSection(element_id) {
+    const sectionElement= document.getElementById(element_id);
+    if (sectionElement.classList.contains('hide')) {
+        sectionElement.classList.remove("hide");
     } else {
-      x.style.display = "none";
+        sectionElement.classList.add("hide");
     }
   }
+

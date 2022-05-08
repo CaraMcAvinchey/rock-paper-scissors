@@ -119,7 +119,7 @@ button:hover {
     transform: scale(1.2);
 }
 
-/* game rules */
+/* hide show button */
 
 .toggle-area {
     display: flex;
@@ -135,8 +135,11 @@ button:hover {
     padding: 10px;
     border-radius: 8px;
     box-shadow: 0 0 1px 0 rgb(0 0 0 / 25%);
-    margin-bottom: 10px
+    margin-bottom: 10px;
+    width: 200px;
 }
+
+/* game rules */
 
 img {
     max-width: 100%;
@@ -214,6 +217,19 @@ footer a {
 
 footer a:hover {
     color: orange;
+}
+
+.area {
+    min-height: calc(100vh - 190px - 2.4rem);
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
+    margin: 1.2rem;
+    align-items: center;
+}
+
+.hide {
+    display: none;
 }
 
 /* media queries */

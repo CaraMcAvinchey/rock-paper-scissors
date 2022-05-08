@@ -18,11 +18,19 @@
         <h1>Welcome to rock, paper, scissors, lizard, spock!</h1>
     </header>
     <!-- welcome area -->
-    <div class="welcome-area">
+    <div id="welcome-area" class="area">
         <h2 id="demo">Are you ready?</h2>
+        <button class="toggle-button"
+            onclick="hideShowSection('welcome-area');hideShowSection('game-area')">Play:</button>
+
+        <button class="toggle-button" onclick="hideShowSection('rule-area');hideShowSection('welcome-area')">Game
+            Rules:</button>
     </div>
+
     <!-- game area -->
-    <div>
+    <div id="game-area" class="hide area">
+        <button class="toggle-button" onclick="hideShowSection('welcome-area');hideShowSection('game-area')">Close:</button>
+
         <div class="container">
             <!-- first section -->
             <div class="section">
@@ -53,21 +61,23 @@
             <button class="fas fa-hand-spock" id="spock"></button>
         </div>
     </div>
+
     <!--game rules area -->
-    <section class="game-rules">
-        <div class="toggle-area">
-            <button class="toggle-button" onclick="myFunction()">Game Rules:</button>
-            <div id="toggle-hide-show">
-                <img src="assets/images/game-rules.png" alt="Illustration of the game rules.">
-                <div class="game-rules-text">
-                    <ol>
-                        <li>Scissors cuts paper, paper covers rock, rock crushes lizard and lizard poisons Spock.</li>
-                        <li>Spock smashes scissors, scissors decapitates lizard, lizard eats paper and paper disproves
-                            Spock.
-                        </li>
-                        <li>Spock vaporizes rock and (as it always has) rock crushes scissors!</li>
-                    </ol>
-                </div>
+    <section id="rule-area" class="hide area">
+        <button class="toggle-button" onclick="hideShowSection('rule-area');hideShowSection('welcome-area')">Close
+            Rules:</button>
+
+        <div id="toggle-hide-show">
+            <img src="assets/images/game-rules.png" alt="Illustration of the game rules.">
+
+            <div class="game-rules-text">
+                <ol>
+                    <li>Scissors cuts paper, paper covers rock, rock crushes lizard and lizard poisons Spock.</li>
+                    <li>Spock smashes scissors, scissors decapitates lizard, lizard eats paper and paper disproves
+                        Spock.
+                    </li>
+                    <li>Spock vaporizes rock and (as it always has) rock crushes scissors!</li>
+                </ol>
             </div>
         </div>
     </section>
