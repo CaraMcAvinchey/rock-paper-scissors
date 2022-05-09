@@ -20,13 +20,12 @@ You can view the deployed website [here](https://caramcavinchey.github.io/rock-p
 
 ### User Stories
 1. As a first time visitor,
-    * XX
+    * I want to be able to play the game quickly and learn the rules fast. 
+    * The rules need to be clear to understand and easy to refer back to if needed.
 
 2. As a returning visitor,
-    * XX
-
-3. As a frequent user, 
-    * XX       
+    * I want to be able to start playing the game once I load the page with very few clicks.   
+    * If I forget the rules, I want to be able to refer back to the rules quickly.  
 
 ### User Profiles
 
@@ -175,7 +174,7 @@ You can view the deployed website [here](https://caramcavinchey.github.io/rock-p
 <img width="1437" alt="image" src="https://user-images.githubusercontent.com/97494262/167332270-04d5c320-e94f-4c14-b961-f72dbc4c5364.png">
 
 ## CREDITS
-- This game was built with the guidance and source code from [Mehdi Aoussiad] (https://javascript.plainenglish.io/building-a-rock-paper-scissors-game-with-javascript-bce23d39509d)
+- This game was built with the guidance and source code from [Mehdi Aoussiad](https://javascript.plainenglish.io/building-a-rock-paper-scissors-game-with-javascript-bce23d39509d)
 - Code Institute Student Template: [gitpod full template](https://github.com/Code-Institute-Org/gitpod-full-template).
 
 ### Media
