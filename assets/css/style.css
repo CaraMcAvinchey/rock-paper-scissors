@@ -172,6 +172,11 @@ img {
     gap: 0.6rem;
 }
 
+.rules-name i {
+    font-size: 200%;
+    text-align: center;
+}
+
 .conquers,
 .lose {
     display: flex;
