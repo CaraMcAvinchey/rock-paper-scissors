@@ -164,13 +164,13 @@ You can view the deployed website [here]('')
 
 ## DEPLOYMENT
 1. Click on the settings link in the menu:
-(screenshot)
+<img width="1438" alt="image" src="https://user-images.githubusercontent.com/97494262/167331789-267033ff-ba73-423b-aa89-bcf978388223.png">
 2. In the left hand menu, click on the pages link:
-(screenshot)
+<img width="1439" alt="image" src="https://user-images.githubusercontent.com/97494262/167331838-548c0b95-383b-4a2d-9604-4a547af52857.png">
 3. In the sources section of the GitHub pages, click on the dropdown menu to select main as the source:
-(screenshot)
+<img width="1437" alt="image" src="https://user-images.githubusercontent.com/97494262/167331906-0d7e8015-8aaa-4b15-92ad-06e6b3dfc860.png">
 4. After you've selected main, hit the save button:
-(screenshot)
+<img width="1436" alt="image" src="https://user-images.githubusercontent.com/97494262/167331939-b111f1c1-acde-4978-9015-cb00b57d6219.png">
 5. Eventually you'll see a blue area with the deployment URL and a success message:
 (screenshot)
 
