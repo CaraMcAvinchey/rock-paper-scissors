@@ -6,7 +6,7 @@ Cara McAvinchey
 ## Project Overview
 *  
 
-You can view the deployed website [here]('https://caramcavinchey.github.io/rock-paper-scissors/')
+You can view the deployed website [here](https://caramcavinchey.github.io/rock-paper-scissors/)
 
 (screenshot of project)
 
@@ -86,7 +86,7 @@ You can view the deployed website [here]('https://caramcavinchey.github.io/rock-
 (screenshot)
 
 ### Features for Future Development
-- XX
+- Future opportunities for the game include adding a high score function to be able to compete with other users and allowing scores to be saved once a user returns to play again.
 
 ## TESTING
 
