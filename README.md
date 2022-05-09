@@ -6,7 +6,7 @@ Cara McAvinchey
 ## Project Overview
 *  
 
-You can view the deployed website [here]('')
+You can view the deployed website [here]('https://caramcavinchey.github.io/rock-paper-scissors/')
 
 (screenshot of project)
 
@@ -172,7 +172,7 @@ You can view the deployed website [here]('')
 4. After you've selected main, hit the save button:
 <img width="1436" alt="image" src="https://user-images.githubusercontent.com/97494262/167331939-b111f1c1-acde-4978-9015-cb00b57d6219.png">
 5. Eventually you'll see a blue area with the deployment URL and a success message:
-(screenshot)
+<img width="1437" alt="image" src="https://user-images.githubusercontent.com/97494262/167332270-04d5c320-e94f-4c14-b961-f72dbc4c5364.png">
 
 ## CREDITS
 - This game was built with the guidance and source code from [Mehdi Aoussiad] (https://javascript.plainenglish.io/building-a-rock-paper-scissors-game-with-javascript-bce23d39509d)
