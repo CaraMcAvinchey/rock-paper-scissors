@@ -271,7 +271,6 @@ footer a:hover {
 /* media queries */
 
 /* unfolded phones (mobile phones, 320px and bigger) */
-/* unfolded phones (mobile phones, 320px and bigger) */
 @media (min-width: 320px) {
     .container .section {
         width: 12rem;
@@ -295,6 +294,18 @@ footer a:hover {
     img {
         height: 220px;
         width: 220px;
+    }
+
+    .container .section {
+        width: 13rem;
+    }
+
+    .section h3 {
+        text-align: center;
+    }
+
+    .show {
+        height: 200px;
     }
 }
 
@@ -366,7 +377,7 @@ footer a:hover {
 
     h2,
     h3 {
-        font-size: 300%;
+        font-size: 280%;
     }
 
     .game-rules-text {
