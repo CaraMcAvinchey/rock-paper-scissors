@@ -36,14 +36,20 @@ You can view the deployed website [here](https://caramcavinchey.github.io/rock-p
 ## DESIGN CHOICES
 
 ### Colors
-- XX
+- The space background image inspired the color palette of the website and links to the theme of the game. 
+- The headings and body text are white to ensure clear contrast and readability for the user.
+- Background of the header and footer is a light purple to ensure clear contrast and delineation between sections.
+- All text and icon elements have a semi-transparent purple background to ensure the text has contrast from the background.
 
-(screenshot palette)
+<img width="956" alt="image" src="https://user-images.githubusercontent.com/97494262/167678568-60e88546-f533-48eb-9a11-9574d9b38339.png">
 
 ### Typography
-- XX
+- The logo and headings use ZCOOL QingKe HuangYou and body text uses Open Sans with a fall-back font of san-serif.
+- The choice of fonts were selected using [Google Fonts](https://fonts.google.com/).
+- The headings decrease in size to ensure full responsiveness of the website.
 
-(screenshot fonts)
+<img width="403" alt="image" src="https://user-images.githubusercontent.com/97494262/167680669-d3b8f6e4-f2cc-4983-9e99-b9037936f880.png">
+<img width="531" alt="image" src="https://user-images.githubusercontent.com/97494262/167680854-dc0313c7-7017-4ac4-b3a3-ea1701ce90a8.png">
 
 ### Images
 - XX
@@ -178,10 +184,11 @@ You can view the deployed website [here](https://caramcavinchey.github.io/rock-p
 - Code Institute Student Template: [gitpod full template](https://github.com/Code-Institute-Org/gitpod-full-template).
 
 ### Media
-- The pairing of Roboto Condensed and Lato were chosen using [FontJoy](https://fontjoy.com/#) and [Google Fonts](https://fonts.google.com/share?selection.family=Lato|Roboto+Condensed:wght@700). 
-- The colors for the website was generated using [Image Color Picker](https://imagecolorpicker.com/).
+- The pairing of ZCOOL QingKe HuangYou and Open Sans were chosen using [Google Fonts](https://fonts.google.com/). 
+- The colors for the website was generated using [Coolers.co](https://coolors.co/image-picker).
 - All images were sourced using [Pexels](https://www.pexels.com).
 - The icons for the favicon, footer, about page and location headings were taken from [Font Awesome](https://fontawesome.com/).
+- The favicon image was converted using [Favicon.io](https://favicon.io/).
 
 ## ACKNOWLEDGEMENTS
 - Thank you to my mentor for continuous helpful feedback and support throughout the project.
