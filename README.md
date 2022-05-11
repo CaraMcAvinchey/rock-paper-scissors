@@ -4,7 +4,7 @@
 Cara McAvinchey 
 
 ## Project Overview
-*  For fans of Big Bang Theory, this twist on the classic rock, paper, scissors game designed using JavaScript hopes to bring enjoyment to those who would like a 5 minute break whether at home or at work. The fully responsive sight allows users to play against Sheldon Cooper using 'lizard' and 'spock' as additional choices.
+*  For fans of Big Bang Theory, this twist on the classic rock, paper, scissors game designed using JavaScript hopes to bring enjoyment to those who would like a 5 minute break whether at home or at work. The sight allows users to play against Sheldon Cooper using 'lizard' and 'spock' as additional choices.
 
 You can view the deployed website [here](https://caramcavinchey.github.io/rock-paper-scissors/)
 
@@ -114,6 +114,12 @@ You can view the deployed website [here](https://caramcavinchey.github.io/rock-p
 - First time users and returning users will be able to connect with players via social media.
 
 <img width="901" alt="image" src="https://user-images.githubusercontent.com/97494262/167850198-af95a596-40fd-4af2-9237-332680477b53.png">
+
+### Error
+- This page was created in case of any broken links or issues. It is styled the same as the rest of the site for familiarity for the user.
+- The page includes the navigation which will allow the user to go back to the home page or any page they were previously on.
+
+<img width="964" alt="image" src="https://user-images.githubusercontent.com/97494262/167879498-84364b70-67ea-47b5-a7e0-a98c5290032b.png">
 
 ### Features for Future Development
 - Future opportunities for the game include adding a high score function to be able to compete with other users and allowing scores to be saved once a user returns to play again.
