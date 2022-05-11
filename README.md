@@ -40,6 +40,7 @@ You can view the deployed website [here](https://caramcavinchey.github.io/rock-p
 - The headings and body text are white to ensure clear contrast and readability for the user.
 - Background of the header and footer is a light purple to ensure clear contrast and delineation between sections.
 - All text and icon elements have a semi-transparent purple background to ensure the text has contrast from the background.
+- The icons are orange to add contrast from the purple palette.
 
 <img width="956" alt="image" src="https://user-images.githubusercontent.com/97494262/167678568-60e88546-f533-48eb-9a11-9574d9b38339.png">
 
@@ -78,28 +79,47 @@ You can view the deployed website [here](https://caramcavinchey.github.io/rock-p
 
 ## FEATURES
 
-### Game Score Area
-- XX
+### Welcome Area
+- The users are greeted with a menu allowing them to either play the game or read the rules first.
+- The close and quit buttons help to easily navigate between areas of the website.
 
-(screenshot)
+<img width="671" alt="image" src="https://user-images.githubusercontent.com/97494262/167851299-9871f1fa-dd70-45c0-9b91-94a8845aedf3.png">
+<img width="499" alt="image" src="https://user-images.githubusercontent.com/97494262/167851561-deb57b60-cfb9-45c0-943c-7238e569174d.png">
+<img width="430" alt="image" src="https://user-images.githubusercontent.com/97494262/167851628-5d1e6096-3c1a-4dc7-a1b2-df75eaa7817a.png">
+
+### Game Score Area
+- The game score area shows the icons of each user and their move. The score increments and a message is displayed to show the user the result of their move.
+
+<img width="454" alt="image" src="https://user-images.githubusercontent.com/97494262/167851674-1ed9dfae-88b4-490b-a9ca-f2ff32077246.png">
 
 ### Game Controls 
-- XX
+- The controls are buttons with hand icons to easily distinguish between each control.
+- If on a smaller screen size, the buttons will respond by stacking on each other.
 
-(screenshot)
+<img width="458" alt="image" src="https://user-images.githubusercontent.com/97494262/167851874-29d53834-32ca-4294-8aa9-2fd9f8a63cf3.png">
 
 ### Game Rules
-- XX
+- The user has a choice of image or info graphic table to refer to when learning the moves.
 
-(screenshot)
+<img width="360" alt="image" src="https://user-images.githubusercontent.com/97494262/167850665-239c3e49-83a3-49e1-9e89-d6cf08adaca8.png">
+
+<img width="275" alt="image" src="https://user-images.githubusercontent.com/97494262/167850728-66892d00-f6e5-4e02-bf58-a0cdcd38b219.png">
+
+### JavaScript Enable Message
+- This message will appear for users who do not have JavaScript enabled on their browser.
+
+<img width="275" alt="image" src="https://user-images.githubusercontent.com/97494262/167849603-6bea22df-28cf-45e4-a870-e22eb9ece4df.png">
 
 ### Footer
-- XX
+- This footer includes links to the relevant social media sites for the Puzzle Exchange group and contact details. The links will open to a new tab to allow easy navigation for the user.
+- First time users and returning users will be able to connect with members via social media or contact the organisers for further information.
 
-(screenshot)
+<img width="901" alt="image" src="https://user-images.githubusercontent.com/97494262/167850198-af95a596-40fd-4af2-9237-332680477b53.png">
 
 ### Features for Future Development
 - Future opportunities for the game include adding a high score function to be able to compete with other users and allowing scores to be saved once a user returns to play again.
+- Audio for the game when a user wins or loses can add more interest.
+- Adjusting the 'It's a win/lose/tie' text to be insults from Sheldon Cooper himself.
 
 ## TESTING
 
