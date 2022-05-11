@@ -19,6 +19,7 @@ body {
 header {
     background: rgba(173, 76, 189, .7);
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    height: 150px;
 }
 
 header h1 {
@@ -254,6 +255,8 @@ footer a {
 footer a:hover {
     color: orange;
 }
+
+/* show/hide areas */
 
 .area {
     min-height: calc(100vh - 190px - 2.4rem);

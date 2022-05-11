@@ -1,3 +1,5 @@
+/*jshint esversion: 6 */
+
 // This game was built with the help of source code from Mehdi Aoussiad: https: //javascript.plainenglish.io/building-a-rock-paper-scissors-game-with-javascript-bce23d39509d
 
 // Setting the scores and selecting the HTML elements.
@@ -12,7 +14,6 @@ const computerShowIcon = document.querySelector('.computer i');
 // The randomClass array below contains the rock, paper, scissors, lizard and spock icons from font-awesome.
 const randomClasses = ["fas fa-hand-rock", "fas fa-hand-paper", "fas fa-hand-scissors", "fas fa-hand-lizard", "fas fa-hand-spock"];
 const text = document.getElementById('demo');
-const text2 = document.getElementById('demo2');
 
 // The game functionality: setting forEach function for the buttons.
 const game = () => {
@@ -133,7 +134,7 @@ const game = () => {
             }                   
         });
     });
-}
+};
 // To call the function.
 game();
 
