@@ -4,7 +4,7 @@
 Cara McAvinchey 
 
 ## Project Overview
-*  For fans of Big Bang Theory, this twist on the classic rock, paper, scissors game designed using JavaScript hopes to bring enjoyment to those who would like a 5 minute break from their daily life. The fully responsive sight allows users to play against Sheldon Cooper using 'lizard' and 'spock' as additional choices.
+*  For fans of Big Bang Theory, this twist on the classic rock, paper, scissors game designed using JavaScript hopes to bring enjoyment to those who would like a 5 minute break whether at home or at work. The fully responsive sight allows users to play against Sheldon Cooper using 'lizard' and 'spock' as additional choices.
 
 You can view the deployed website [here](https://caramcavinchey.github.io/rock-paper-scissors/)
 
@@ -16,7 +16,7 @@ You can view the deployed website [here](https://caramcavinchey.github.io/rock-p
 ## UX
 
 ### Project Goal
-* The project goal is to create a fully functioning game using JavaScript that users can use and enjoy at any point during their daily life.
+* The project goal is to create a fully functioning and responsive game using JavaScript.
 
 ### User Stories
 1. As a first time visitor,
@@ -28,9 +28,7 @@ You can view the deployed website [here](https://caramcavinchey.github.io/rock-p
     * If I forget the rules, I want to be able to refer back to the rules quickly.  
 
 ### User Profiles
-
 1. Paul commutes to work via subway each morning and enjoys a quick 5 minute game as he travels.
-
 2. Lisa enjoys a short game between meetings or whilst waiting for appointments. As a Big Bang Theory fan, she enjoys sharing the game with her friends.
  
 ## DESIGN CHOICES
@@ -160,7 +158,7 @@ You can view the deployed website [here](https://caramcavinchey.github.io/rock-p
    1. The close and quit buttons will help users navigate between the rules and game area.
 
 ### Manual Testing
-- You can view manual testing of the website [here]("")
+- You can view manual testing of the website [here]("https://docs.google.com/spreadsheets/d/1I9u6TR5_VShrvwokTrLhI9-OFdkqnsuMuvzmYk1Uw-k/edit?usp=sharing")
 
 ### Outstanding Defects
 - The footer doesn't remain fixed at the bottom of the site on all screen sizes, this isn't obvious to the user and doesn't clash with other elements. This will be fixed in future debugging.
