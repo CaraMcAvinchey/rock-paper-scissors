@@ -54,16 +54,14 @@ You can view the deployed website [here](https://caramcavinchey.github.io/rock-p
 
 ### Images/Icons
 - The background image matches with the space theme of the game and creates a sense of depth without disrupting the foreground.
-
 <img width="638" alt="image" src="https://user-images.githubusercontent.com/97494262/167847676-385240d9-1219-4b42-be4e-4d02afdad13d.png">
-
+- The rules image provides a clear diagram of the game moves and results.
+<img width="211" alt="image" src="https://user-images.githubusercontent.com/97494262/167854861-4d080e4c-46ec-422c-ac5a-6592395b9b3a.png">
 - The icons are used consistently across the site for game controls and in the rules.
-
 <img width="525" alt="image" src="https://user-images.githubusercontent.com/97494262/167848422-c5b60ace-fbaa-4f87-a273-8bc23dc0be71.png">
 
 ### Animations
 - The buttons across the site have a sublte grow effect when hovered over by the user.
-
 <img width="626" alt="image" src="https://user-images.githubusercontent.com/97494262/167848676-f217f2fc-d7de-4fea-be57-d050e396f125.png">
 
 ### Responsiveness
@@ -111,8 +109,8 @@ You can view the deployed website [here](https://caramcavinchey.github.io/rock-p
 <img width="275" alt="image" src="https://user-images.githubusercontent.com/97494262/167849603-6bea22df-28cf-45e4-a870-e22eb9ece4df.png">
 
 ### Footer
-- This footer includes links to the relevant social media sites for the Puzzle Exchange group and contact details. The links will open to a new tab to allow easy navigation for the user.
-- First time users and returning users will be able to connect with members via social media or contact the organisers for further information.
+- This footer includes links to the relevant social media sites for game development group who created the site. The links will open to a new tab to allow easy navigation for the user.
+- First time users and returning users will be able to connect with players via social media.
 
 <img width="901" alt="image" src="https://user-images.githubusercontent.com/97494262/167850198-af95a596-40fd-4af2-9237-332680477b53.png">
 
@@ -153,43 +151,28 @@ You can view the deployed website [here](https://caramcavinchey.github.io/rock-p
 ### Testing User Stories from User Experience (UX) Section
 
 **First time visitor:**
-1. XX
-   1. XX
-
-2. XX
-   1. XX
- 
-3. XX
-   1. XX
+1. As a first time visitor, I want to be able to play the game quickly and learn the rules fast. The rules need to be clear to understand and easy to refer back to.
+   1. The welcome area with the menu will allow users to navigate the page quickly and easily as needed.
+   2. The rules are displayed both as a visual and infographic grid.
   
 **Returning visitor:**
-1. XX
-      1. XX
-2. XX
-      1. XX
-3. XX
-      1. XX
-
-**Frequent user:**
- 1. XX
-      1. XX
- 2. XX 
-      1. XX
+1. As a returning visitor, I want to be able to start playing the game once I load the page with very few clicks. If I forget the rules, I want to be able to refer back to the rules quickly. 
+   1. The close and quit buttons will help users navigate between the rules and game area.
 
 ### Manual Testing
 - You can view manual testing of the website [here]("")
 
 ### Outstanding Defects
-- XX
+- The footer doesn't remain fixed at the bottom of the site on all screen sizes, this isn't obvious to the user and doesn't clash with other elements. This will be fixed in future debugging.
 
 ### Defects of Note
-1. XX
-2. XX 
+1. The resizing of the game section for smaller screen sizes had many challenges. Flexbox solved most of the issues using media queries.
 
 ## ACCESSIBILITY
 
 ### Lighthouse Audit
-- The deployed website was run through [web.dev measure](https://web.dev/measure/) to check performance, accessibility, best practices and SEO scores. 
+- The deployed website was run through [web.dev measure](https://web.dev/measure/) to check performance, accessibility, best practices and SEO scores.
+ 
 <img width="500" alt="image" src="">
 
 ### Keyboard Navigation
@@ -214,7 +197,8 @@ You can view the deployed website [here](https://caramcavinchey.github.io/rock-p
 ### Media
 - The pairing of ZCOOL QingKe HuangYou and Open Sans were chosen using [Google Fonts](https://fonts.google.com/). 
 - The colors for the website was generated using [Coolers.co](https://coolors.co/image-picker).
-- All images were sourced using [Pexels](https://www.pexels.com).
+- The background image was sourced using [Pexels](https://www.pexels.com).
+- The game rules image was sourced using [Creative Commons Search](https://openclipart.org/detail/325665/rock-paper-scissors-lizard-spock).
 - The icons for the favicon, footer, about page and location headings were taken from [Font Awesome](https://fontawesome.com/).
 - The favicon image was converted using [Favicon.io](https://favicon.io/).
 
