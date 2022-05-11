@@ -62,7 +62,7 @@ You can view the deployed website [here](https://caramcavinchey.github.io/rock-p
 <img width="525" alt="image" src="https://user-images.githubusercontent.com/97494262/167848422-c5b60ace-fbaa-4f87-a273-8bc23dc0be71.png">
 
 ### Animations
-- The buttons across the site have a sublte grow effect when hovered over by the user.
+- The buttons across the site have a subtle grow effect when hovered over by the user.
 <img width="626" alt="image" src="https://user-images.githubusercontent.com/97494262/167848676-f217f2fc-d7de-4fea-be57-d050e396f125.png">
 
 ### Responsiveness
