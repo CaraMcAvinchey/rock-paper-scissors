@@ -309,6 +309,9 @@ footer a:hover {
     .show {
         height: 180px;
     }
+
+    .container {
+        justify-content: center;
 }
 
 /* small devices (mobile phones, less than 576px) */
