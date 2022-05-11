@@ -124,14 +124,19 @@ You can view the deployed website [here](https://caramcavinchey.github.io/rock-p
 
 ### Validation Testing
 - HTML
-   - No errors were returned when passing through the official [HTML validator]("")
+   - No errors were returned when passing through the official [HTML validator]("https://validator.w3.org/nu/?doc=https%3A%2F%2Fcaramcavinchey.github.io%2Frock-paper-scissors%2F")
 
-(screenshot)
+<img width="865" alt="image" src="https://user-images.githubusercontent.com/97494262/167859862-8ea3541a-644b-4d85-80f5-92a73044d3e2.png">
 
 - CSS
-   - No errors were found when passing through the [CSS validator]("").
+   - No errors were found when passing through the [CSS validator]("https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fcaramcavinchey.github.io%2Frock-paper-scissors%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en").
 
-(screenshot)
+<img width="1410" alt="image" src="https://user-images.githubusercontent.com/97494262/167859678-43e919a2-7452-4bdc-94c5-97413e70b386.png">
+
+- JS validation
+   -  No errors found when passing through the JS validator.
+
+<img width="1436" alt="image" src="https://user-images.githubusercontent.com/97494262/167860361-14057f8e-b0d5-4e55-8476-69b3b896eeb1.png">
 
 ### Cross Browser and Cross Device Testing
 - The below combination of devices, browsers, and operating system were used to test the website. A range of viewport sizes were checked to see if users would have the same experience across multiple devices and browsers.
@@ -174,7 +179,7 @@ You can view the deployed website [here](https://caramcavinchey.github.io/rock-p
 ### Lighthouse Audit
 - The deployed website was run through [web.dev measure](https://web.dev/measure/) to check performance, accessibility, best practices and SEO scores.
  
-<img width="500" alt="image" src="">
+<img width="647" alt="image" src="https://user-images.githubusercontent.com/97494262/167859202-ce787c3f-7995-425d-9e58-24a84901d4d4.png">
 
 ### Keyboard Navigation
 - The user will be able to use the tab, arrow and enter keys if needed when navigating the website.
