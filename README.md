@@ -52,9 +52,12 @@ You can view the deployed website [here](https://caramcavinchey.github.io/rock-p
 
 ### Images/Icons
 - The background image matches with the space theme of the game and creates a sense of depth without disrupting the foreground.
+
 <img width="638" alt="image" src="https://user-images.githubusercontent.com/97494262/167847676-385240d9-1219-4b42-be4e-4d02afdad13d.png">
+
 - The rules image provides a clear diagram of the game moves and results.
 <img width="211" alt="image" src="https://user-images.githubusercontent.com/97494262/167854861-4d080e4c-46ec-422c-ac5a-6592395b9b3a.png">
+
 - The icons are used consistently across the site for game controls and in the rules.
 <img width="525" alt="image" src="https://user-images.githubusercontent.com/97494262/167848422-c5b60ace-fbaa-4f87-a273-8bc23dc0be71.png">
 
