@@ -201,7 +201,7 @@ ol {
     list-style: none;
     counter-reset: steps;
     padding: 15px;
-    background: hsl(270deg 74% 6% / 50%); 
+    background: hsl(270deg 74% 6% / 50%);
 }
 
 ol li {
@@ -296,6 +296,26 @@ footer a:hover {
 
 /* media queries */
 
+/* small phones (mobile phones, 280px and bigger) */
+@media (min-width: 280px) {
+    .container .section {
+        width: 280px;
+        justify-content: center;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    header h1 {
+        font-size: 250%;
+    }
+
+    .show {
+        height: 180px;
+        width: 180px;
+    }
+
+}
+
 /* unfolded phones (mobile phones, 320px and bigger) */
 @media (min-width: 320px) {
     .container .section {
@@ -304,6 +324,7 @@ footer a:hover {
 
     .section h3 {
         text-align: center;
+        font-size: 265%;
     }
 
     .show {
@@ -312,6 +333,7 @@ footer a:hover {
 
     .container {
         justify-content: center;
+    }
 }
 
 /* small devices (mobile phones, less than 576px) */
@@ -334,7 +356,7 @@ footer a:hover {
     }
 
     .show {
-        height: 200px;
+        height: 180px;
     }
 }
 
