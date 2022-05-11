@@ -293,18 +293,6 @@ footer a:hover {
     padding: 15px;
 }
 
-.error-page a {
-    text-decoration: none;
-    font-family: 'ZCOOL QingKe HuangYou';
-    background: rgba(173, 76, 189, .7);
-    color: white;
-    font-size: 200%;
-    padding: 10px;
-    border-radius: 8px;
-    box-shadow: 0 0 1px 0 rgb(0 0 0 / 25%);
-    margin-bottom: 10px;
-    width: 200px;
-}
 
 /* media queries */
 
