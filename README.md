@@ -166,7 +166,7 @@ You can view the deployed website [here](https://caramcavinchey.github.io/rock-p
    1. The close and quit buttons will help users navigate between the rules and game area.
 
 ### Manual Testing
-- You can view manual testing of the website [here]("https://docs.google.com/spreadsheets/d/1I9u6TR5_VShrvwokTrLhI9-OFdkqnsuMuvzmYk1Uw-k/edit?usp=sharing")
+- You can view manual testing of the website [here](https://docs.google.com/spreadsheets/d/1I9u6TR5_VShrvwokTrLhI9-OFdkqnsuMuvzmYk1Uw-k/edit?usp=sharing)
 
 ### Outstanding Defects
 - The footer doesn't remain fixed at the bottom of the site on all screen sizes, this isn't obvious to the user and doesn't clash with other elements. This will be fixed in future debugging.
