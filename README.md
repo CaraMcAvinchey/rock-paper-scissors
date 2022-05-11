@@ -8,7 +8,7 @@ Cara McAvinchey
 
 You can view the deployed website [here](https://caramcavinchey.github.io/rock-paper-scissors/)
 
-(screenshot of project)
+<img width="997" alt="image" src="https://user-images.githubusercontent.com/97494262/167847460-3e1a4d5f-158f-4eeb-93d3-7f1a6ef52d9d.png">
 
 
 ## TABLE OF CONTENTS
@@ -51,14 +51,22 @@ You can view the deployed website [here](https://caramcavinchey.github.io/rock-p
 <img width="403" alt="image" src="https://user-images.githubusercontent.com/97494262/167680669-d3b8f6e4-f2cc-4983-9e99-b9037936f880.png">
 <img width="531" alt="image" src="https://user-images.githubusercontent.com/97494262/167680854-dc0313c7-7017-4ac4-b3a3-ea1701ce90a8.png">
 
-### Images
-- XX
+### Images/Icons
+- The background image matches with the space theme of the game and creates a sense of depth without disrupting the foreground.
+
+<img width="638" alt="image" src="https://user-images.githubusercontent.com/97494262/167847676-385240d9-1219-4b42-be4e-4d02afdad13d.png">
+
+- The icons are used consistently across the site for game controls and in the rules.
+
+<img width="525" alt="image" src="https://user-images.githubusercontent.com/97494262/167848422-c5b60ace-fbaa-4f87-a273-8bc23dc0be71.png">
 
 ### Animations
-- XX
+- The buttons across the site have a sublte grow effect when hovered over by the user.
+
+<img width="626" alt="image" src="https://user-images.githubusercontent.com/97494262/167848676-f217f2fc-d7de-4fea-be57-d050e396f125.png">
 
 ### Responsiveness
-- XX
+- The website was designed using flexbox instead of float or grid to avoid fixed heights and ensure responsiveness throughout the website.
 
 ## WIREFRAMES
 
